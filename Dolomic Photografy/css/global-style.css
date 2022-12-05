@@ -1,0 +1,49 @@
+/*Colors 
+
+#E3DBD3 - Background color
+
+#9CB2A5 - green ish
+
+#8BA4B3 - Blue ish
+
+--------------------------------
+
+#C9B7C9 - Light text color
+
+#9D7982 - Medium Light Text color
+
+#733236 - Text color
+
+-----------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*
+  font-size: 10px;
+  Procenat user browser font size settings*/
+  font-size: 62.5%;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.6rem 3.2rem;
+}
+
+.paragraf--medium {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #555;
+}
